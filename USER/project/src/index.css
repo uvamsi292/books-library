@@ -1,0 +1,173 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.login-form h9{
+  font-size: 50px;
+  color:antiquewhite;
+  position: relative;
+  top:-25px;
+}
+
+.login{
+  padding-top: 150px;
+}
+.image{
+  background-image: url(/src/component/image.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+}
+.login-form{
+  width: 300px;
+  margin: 0 auto;
+  position:relative;
+  right:500px;
+  /* border: 3px solid black; */
+  /* border-radius: 5px; */
+  /* background-color: orange; */
+  /* padding: 10px;
+  padding-right: 25px; */
+  margin-top: -21px;
+} 
+.login-form label{
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  color: antiquewhite;
+}
+.login-form input{
+  width: 100%;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.login-form button{
+  /* margin-left: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white; */
+
+ width: 50%;
+ margin-top: 20px;
+ display: block;
+ background-color:green;
+ color: white;
+ padding: 10px;
+ position: relative;
+ left: 80px;
+}
+.login-form button:hover{
+  background-color: white;
+  color: black;
+}
+.login-form h4{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.login-form a{
+  /* margin-left: 25px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-decoration: none; */
+  width: 50%;
+  margin-top: 20px;
+  display: block;
+  background-color:blue;
+  color: white;
+  padding: 10px;
+  position: relative;
+  left: 70px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.login-form a:hover{
+  background-color: white;
+  color: black;
+}
+.login-form p{
+  color: white;
+  text-align: center;
+} 
+#signupimg{
+  height: 800px;
+  width: 1200px;
+}
+.sign{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.signup-form{
+  width: 300px;
+  margin: 0 auto;
+  /* border: 3px solid black; */
+  border-radius: 5px;
+  /* background-color: orange; */
+  padding: 10px;
+  padding-right: 25px;
+  margin-top: 200px;
+  margin-left: 250px;
+  
+}
+#up{
+  position: relative;
+  top:-20px;
+  color: red;
+  text-align: center;
+}
+.signup-form label{
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
+  text-align: center;
+}
+.signup-form input{
+  width: 350px;
+  height: 25px;
+  border: 2.5px solid greenyellow;
+  border-radius: 5px;
+  padding: 5px;
+}
+.signup-form button{
+  margin-left: 25px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  height:35px ;
+  font-size: 18px;
+  border-radius:7px ;
+  position: relative;
+  bottom: -7px;
+}
+.signup-form button:hover{
+  background-color: white;
+  color: black;
+}
+.signup-form p{
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}

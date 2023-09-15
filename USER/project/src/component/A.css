@@ -1,0 +1,32 @@
+.nav1{
+    display:flex;
+  }
+  nav a{
+    text-decoration: none;
+    position: relative;
+    top:-25px;
+    left:1300px;
+    margin: 5px;
+    font-size:25px;
+    color:white;
+  }
+  .img12{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 12px;
+    display:flex;
+    flex:start;
+  }
+  .b{
+    position: relative;
+    top:-72px;
+    font-size:40px;
+    color:white;
+  }
+  header{
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: green;
+  }

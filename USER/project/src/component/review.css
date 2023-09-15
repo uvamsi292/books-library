@@ -1,0 +1,89 @@
+.Re{
+    margin-bottom:100px;
+}
+.flexbox3{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    column-gap: 30px;
+    margin-top: 20px;
+    text-align: center;  
+}
+.item11{
+    flex-basis: 25%;
+    background-color: rgb(216, 230, 188);
+    height: 260px;
+    width: 260px;
+    box-shadow: 10px 10px 10px yellowgreen;
+    text-align: justify;  
+    border-radius: 15px;
+}
+
+.item12{
+    flex-basis: 25%;
+    background-color:rgb(250, 229, 229);
+    height: 260px;
+    width: 260px;
+    box-shadow: 10px 10px 10px yellowgreen;
+    text-align: justify; 
+    border-radius: 15px;
+}
+.item13{
+    flex-basis: 25%;
+    background-color:rgb(226, 240, 231);
+    height: 260px;
+    width: 260px;
+    box-shadow: 10px 10px 10px yellowgreen;
+    text-align: justify; 
+    border-radius: 15px;
+}
+.item14{
+    flex-basis: 25%;
+    background-color:rgb(238, 245, 243);
+    height: 260px;
+    width: 260px;
+    box-shadow: 10px 10px 10px yellowgreen;
+    text-align: justify;
+     border-radius: 15px;
+}
+.ball{
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    background-color: rgb(220, 200, 238);
+    margin-top: 10px;
+    transform: translate(10px);
+    background-image: url(https://meganmiranda.com/wp-content/uploads/MeganMiranda_highres.jpg);
+    background-size: 100px;
+}
+.ball1{
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    background-color: rgb(53, 162, 235);
+    margin-top: 10px;
+    transform: translate(10px);
+    background-image: url(https://images.wsj.net/im-316136/square);
+    background-size: 100px;
+}
+.ball2{
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    background-color: rgb(235, 243, 116);
+    margin-top: 10px;
+    transform: translate(10px);
+    background-image: url(https://c8.alamy.com/comp/PEH4PW/edinburgh-scotland-uk-15-august-2018-pictured-jess-kidd-kidds-book-the-hoarder-has-the-house-of-belligerent-senior-citizen-slowly-revealing-its-locked-up-secrets-credit-iain-mastertonalamy-live-news-PEH4PW.jpg);
+    background-size: 100px;
+}
+.ball3{
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    background-color: rgb(235, 156, 66);
+    margin-top: 10px;
+    transform: translate(10px);
+    background-image: url(https://www.tallengestore.com/cdn/shop/products/Portrait_Of_Gurudev_Rabindranath_Tagore_6c25cc4c-fd5c-4ca5-8b2b-954ad8387032.jpg?v=1569048051);
+    background-size: 100px;
+}

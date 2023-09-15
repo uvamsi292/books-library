@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    height: auto;
+    column-gap: 30px;
+}
+.img22{
+    flex-basis: 60%;
+    background-image:url(https://img.freepik.com/free-vector/education-template-vector-with-books-ceiling-lamp_53876-125958.jpg?w=826&t=st=1694150318~exp=1694150918~hmac=a60d79a640da163fffc5c744e882f39e35ff865dba0c4926f87eba945d4ffaa8);
+    background-repeat: no-repeat;
+    background-size: 1250px 500px;
+    border-radius: 30px;
+    box-shadow: -5px 5px 2px 1px greenyellow;
+    position: relative;
+    top:100px;
+
+}
+.m1{
+    flex-basis: 40%;
+    height: 500px;
+    position: relative;
+    top:100px;
+    text-align: justify;
+    margin-left: 50px;
+}
+h2{
+    font-size: 55px;
+    left: 40px;
+}
+.m2{
+    color:aqua;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+    position: relative;
+    font-size:20px ;
+}
+.m3{
+    display: inline-flex;
+    background-color:green;
+    position: relative;
+    top: 10px;
+}
+.m3 a{
+    color:white;
+    font-size:20px;
+    background-size: 20px 20px;
+    text-decoration: none;
+}

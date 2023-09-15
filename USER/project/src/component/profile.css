@@ -1,0 +1,41 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-left: 250px;
+    position: relative;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+}
+#profileimg{
+    height: 800px;
+    width: 1200px;
+    box-shadow: -5px 5px greenyellow;
+    border-radius: 5px;
+}
+.prof{
+    position: relative;
+    top:300px;
+    right: 100px;
+    height: 500px;
+    font-size: 20px;
+    color: orange;  
+    /* background-color: beige; */
+}
+#wel{
+    color: black;
+}
+.prof button{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    background-color: aquamarine;
+    border-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prof button:hover{
+    background-color:blueviolet;
+    color: aliceblue;
+}

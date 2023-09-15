@@ -1,0 +1,124 @@
+.container1{
+    margin-top: 200px;
+    display: flex;
+    flex-direction:column;
+    height: auto;
+    row-gap: 100px;
+
+}
+.flexbox1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    column-gap: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    column-gap: 20px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.item1{
+    flex-basis: 25%;
+    background-color: white;
+    height: 250px;
+    box-shadow: 5px 5px 2px 1px greenyellow;
+    border-radius: 30px;
+}
+.img1{
+    height: 100px;
+    background-image: url(http://levenmedicalcare.com/wp-content/uploads/2020/05/fast-delivery-logo-timer-and-fast-delivery-vector-20000374-e1584185500541.png);
+    background-position: center;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
+
+
+.item2{
+    flex-basis: 25%;
+    background-color:white;
+    height: 250px;
+    box-shadow: 5px 5px 2px 1px yellowgreen;
+    border-radius: 30px;
+}
+.img2{
+    height: 100px;
+    background-image: url(https://huddersfieldroofs.com/wp-content/uploads/2018/01/24-Hour-Service.png);
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+
+}
+.item3{
+    flex-basis: 25%;
+    background-color:white;
+    height: 250px;
+    box-shadow: 5px 5px 2px 1px yellowgreen;
+    border-radius: 30px;
+}
+.img3{
+    height: 100px;
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/49/81/best-deal-advertising-sticker-vector-47314981.jpg);
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+.item4{flex-basis: 25%;
+    background-color:white;
+    height: 250px;
+    box-shadow: 5px 5px 2px 1px yellowgreen;
+    border-radius: 30px;
+}
+.img4{
+    height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrRcJHP_ikGd-rQ8NncdqrqVsbzxiWDI-VYw&usqp=CAU);
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+.item5{
+    flex-basis:50% ;
+    background-image: url(https://w0.peakpx.com/wallpaper/728/862/HD-wallpaper-graphy-still-life-book-candle-clock-glasses-vintage.jpg);
+    height: 500px;
+    box-shadow: 10px 10px 10px 2px yellowgreen;
+    border-radius: 30px;
+
+}
+.item6{
+    flex-basis:50% ;
+    background-color: white;
+    text-align: calc(20px);
+    height: 500px;
+    box-shadow: 10px 10px 10px 2px yellowgreen;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.xyz{
+    margin: 30px;
+    margin-top: 100px;
+    text-align: left;
+}
+.x a{
+    display: inline-flex;
+    background-color: rgb(107, 228, 137);
+    text-decoration: none;
+}
+.qwe{
+    margin-top: 20px;
+}
+em{
+    font-size: 35px;
+}
+i{
+    font-size: 20px;
+    font-family: italic;
+}
